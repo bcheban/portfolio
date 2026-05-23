@@ -100,7 +100,7 @@ export default async function handler(req, res) {
 
     if (!r.ok) {
       const body = await r.text().catch(() => "");
-      const snippet = body.slice(0, 120).replace(/\s+/g, " ");
+      const snippet = body.slice(0, 400).replace(/\s+/g, " ");
       throw new Error(`PSI ${r.status} ${hasKey ? "(key sent)" : "(no key)"}: ${snippet}`);
     }
     const data = await r.json();
@@ -115,7 +115,7 @@ export default async function handler(req, res) {
     res.status(200).send(buildSvg(scores));
   } catch (err) {
     res.setHeader("Cache-Control", "public, max-age=60");
-    res.setHeader("X-PSI-Error", err.message.slice(0, 200));
+    res.setHeader("X-PSI-Error", err.message.slice(0, 500));
     const reason = err.name === "AbortError" ? "Audit still running — refresh in ~1 min" : "Audit failed — try again";
     res.status(200).send(placeholderSvg(reason));
   }
