@@ -88,12 +88,21 @@ export default async function handler(req, res) {
     for (const { key } of CATEGORIES) psi.searchParams.append("category", key);
     if (process.env.PSI_API_KEY) psi.searchParams.set("key", process.env.PSI_API_KEY);
 
+    const hasKey = Boolean(process.env.PSI_API_KEY);
+    res.setHeader("X-PSI-Key-Present", hasKey ? "yes" : "no");
+
     const controller = new AbortController();
     const timeout = setTimeout(() => controller.abort(), 55_000);
     const r = await fetch(psi, { signal: controller.signal });
     clearTimeout(timeout);
 
-    if (!r.ok) throw new Error(`PageSpeed API responded ${r.status}`);
+    res.setHeader("X-PSI-Status", String(r.status));
+
+    if (!r.ok) {
+      const body = await r.text().catch(() => "");
+      const snippet = body.slice(0, 120).replace(/\s+/g, " ");
+      throw new Error(`PSI ${r.status} ${hasKey ? "(key sent)" : "(no key)"}: ${snippet}`);
+    }
     const data = await r.json();
     const cats = data?.lighthouseResult?.categories ?? {};
 
@@ -106,6 +115,7 @@ export default async function handler(req, res) {
     res.status(200).send(buildSvg(scores));
   } catch (err) {
     res.setHeader("Cache-Control", "public, max-age=60");
+    res.setHeader("X-PSI-Error", err.message.slice(0, 200));
     const reason = err.name === "AbortError" ? "Audit still running — refresh in ~1 min" : "Audit failed — try again";
     res.status(200).send(placeholderSvg(reason));
   }
