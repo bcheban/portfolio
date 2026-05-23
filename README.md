@@ -1,180 +1,157 @@
-<p align="center">
-  <img src="https://github.com/bcheban.png" alt="Bohdan Cheban Portfolio Logo" width="120" style="border-radius: 50%;" />
-</p>
-
-<h1 align="center">Bohdan Cheban — Portfolio</h1>
+<h1 align="center">
+  <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=28&pause=1000&color=00D1B2&center=true&vCenter=true&width=520&lines=Hi+there%2C+I'm+Bohdan+Cheban+%F0%9F%91%8B;Front-End+Developer+from+Ukraine+%F0%9F%87%BA%F0%9F%87%A6;Building+beautiful+web+%26+mobile+apps;React+%C2%B7+Next.js+%C2%B7+Vue+%C2%B7+React+Native" alt="Typing intro" />
+</h1>
 
 <p align="center">
-  <strong>A personal portfolio showcasing my work as a frontend developer — built with React 19, Vite, Tailwind CSS v4, and React Router 7.</strong>
+  <a href="https://bohdancheban-portfolio.vercel.app">
+    <img src="https://img.shields.io/badge/Portfolio-bohdancheban--portfolio.vercel.app-0CCE6B?style=for-the-badge&logo=vercel&logoColor=white" alt="Portfolio" />
+  </a>
+  <img src="https://komarev.com/ghpvc/?username=bcheban&label=Profile+views&color=brightgreen&style=for-the-badge" alt="Profile views" />
+  <a href="https://github.com/bcheban?tab=followers">
+    <img src="https://img.shields.io/github/followers/bcheban?style=for-the-badge&color=blue&label=Followers" alt="Followers" />
+  </a>
+</p>
+
+---
+
+## 👨‍💻 About Me
+
+🎨 I'm a **passionate Full Stack Developer** from Ukraine 🇺🇦 who loves crafting beautiful, creative, and interactive web experiences.
+
+- 💼 **Open to:** Junior Full Stack opportunities (remote or Kyiv 🇺🇦)
+- 🎯 **Fun fact:** my portfolio has its own [live Lighthouse score endpoint](https://bohdancheban-portfolio.vercel.app/api/lighthouse?url=https://bohdancheban-portfolio.vercel.app) — see it in action below 👇
+
+---
+
+## 🛠 My Stack
+
+### 💪 Comfortable with
+
+<p align="center">
+  <img src="https://skillicons.dev/icons?i=html,css,js,ts,react,redux,tailwind,sass,bootstrap" alt="Frontend stack" />
+  <br>
+  <img src="https://skillicons.dev/icons?i=nodejs,postgres,postman,git,github,vite,vercel,figma,vscode" alt="Backend & tools" />
 </p>
 
 <p align="center">
-  <a href="https://bohdancheban-portfolio.vercel.app">🔗 Live Portfolio</a> |
-  <a href="https://github.com/bcheban/portfolio">💻 GitHub Repo</a>
+  <em>HTML/CSS · JavaScript · TypeScript · React · Redux / RTK · TailwindCSS · SASS/SCSS · Bootstrap · Node.js · PostgreSQL · Postman · Git · GitHub · Vite · Vercel · Figma · VS Code</em>
 </p>
 
----
+### 🧠 Familiar with
 
-## 📌 Overview
-
-A single-page portfolio site that introduces who I am, the technologies I work with, and the projects I've shipped. It features animated hero, theme toggle, certificate gallery, contact form (EmailJS), and a responsive project grid with live demo + source links.
-
-Built with **React 19**, **Vite 7**, **Tailwind CSS v4**, and **React Router 7**. UI primitives via **Radix Toast** and **Lucide icons**; styling via **tailwind-merge** + **class-variance-authority**.
-
----
-
-## 🌐 Live Preview
-
-👉 **[https://bohdancheban-portfolio.vercel.app](https://bohdancheban-portfolio.vercel.app)**
-
----
-
-## 🛠 Technologies Used
-
-### Core Framework & Build Tools
-<p>
-  <img src="https://img.shields.io/badge/React_19-20232A?style=for-the-badge&logo=react&logoColor=61DAFB" alt="React 19" />
-  <img src="https://img.shields.io/badge/Vite-646CFF?style=for-the-badge&logo=vite&logoColor=white" alt="Vite" />
+<p align="center">
+  <img src="https://skillicons.dev/icons?i=nextjs,vue,nuxt,expo,appwrite" alt="Familiar frameworks" />
 </p>
 
-### Styling
-<p>
-  <img src="https://img.shields.io/badge/Tailwind_CSS_v4-06B6D4?style=for-the-badge&logo=tailwindcss&logoColor=white" alt="Tailwind CSS v4" />
-  <img src="https://img.shields.io/badge/tailwind--merge-06B6D4?style=for-the-badge&logo=tailwindcss&logoColor=white" alt="tailwind-merge" />
-  <img src="https://img.shields.io/badge/CVA-1A1A1A?style=for-the-badge&logo=react&logoColor=61DAFB" alt="class-variance-authority" />
+<p align="center">
+  <img src="https://img.shields.io/badge/React_Native-20232A?style=for-the-badge&logo=react&logoColor=61DAFB" alt="React Native" />
+  <img src="https://img.shields.io/badge/Zustand-1A1A1A?style=for-the-badge&logo=react&logoColor=61DAFB" alt="Zustand" />
+  <img src="https://img.shields.io/badge/ShadCN-1A1A1A?style=for-the-badge&logo=shadcnui&logoColor=white" alt="ShadCN" />
+  <img src="https://img.shields.io/badge/Drizzle_ORM-C5F74F?style=for-the-badge&logo=drizzle&logoColor=black" alt="Drizzle" />
+  <img src="https://img.shields.io/badge/NeonDB-00E599?style=for-the-badge&logo=postgresql&logoColor=white" alt="NeonDB" />
 </p>
 
-### Routing & UI
-<p>
-  <img src="https://img.shields.io/badge/React_Router_7-CA4245?style=for-the-badge&logo=reactrouter&logoColor=white" alt="React Router 7" />
-  <img src="https://img.shields.io/badge/Radix_Toast-161618?style=for-the-badge&logo=radixui&logoColor=white" alt="Radix Toast" />
-  <img src="https://img.shields.io/badge/Lucide-1A1A1A?style=for-the-badge&logo=lucide&logoColor=white" alt="Lucide" />
-  <img src="https://img.shields.io/badge/React_Icons-1A1A1A?style=for-the-badge&logo=react&logoColor=61DAFB" alt="React Icons" />
+<p align="center">
+  <em>Next.js · Vue · Nuxt · React Native · Expo · Appwrite · Zustand · ShadCN · Drizzle · NeonDB</em>
 </p>
-
-### Forms & Email
-<p>
-  <img src="https://img.shields.io/badge/EmailJS-FF6F61?style=for-the-badge&logo=maildotru&logoColor=white" alt="EmailJS" />
-</p>
-
-### Deployment
-<p>
-  <img src="https://img.shields.io/badge/Vercel-000000?style=for-the-badge&logo=vercel&logoColor=white" alt="Vercel" />
-</p>
-
----
-
-## 🧠 My Stack
-
-**Comfortable with:** HTML/CSS · JavaScript · TypeScript · React · Redux / RTK · TailwindCSS · SASS/SCSS · Bootstrap · Node.js · PostgreSQL · Postman · Git/GitHub · Vite · Vercel · Figma · VS Code
-
-**Familiar with:** Next.js · Vue · Nuxt · Zustand · React Native · Expo · ShadCN · Appwrite · Drizzle · NeonDB
 
 ---
 
 ## 🚀 Featured Projects
 
-| # | Project | Stack | Live | Code |
-|---|---------|-------|------|------|
-| 1 | **SaaS Landing Page** — animated, dark-mode-first landing for a SaaS product | React, TailwindCSS, TypeScript, Zustand | [Demo](https://react-landing-page-ivory-one.vercel.app) | [GitHub](https://github.com/bcheban/react-landing-page) |
-| 2 | **NoteForge** — full-stack notes platform with auth and search | Next.js, TypeScript, Drizzle, NeonDB, ShadCN | [Demo](https://next-noteforge.vercel.app) | [GitHub](https://github.com/bcheban/next-noteforge) |
-| 3 | **Nuxt Recipe App** — elegant recipe browser built on Nuxt 4 | Nuxt, Vue, TypeScript, TailwindCSS | [Demo](https://nuxt-recipe-app-zeta.vercel.app) | [GitHub](https://github.com/bcheban/nuxt-recipe-app) |
-| 4 | **HabitTracker Mobile** — daily-habit tracker for Android with streaks and reminders | React Native, Expo, TypeScript, Appwrite | [APK (Telegram)](https://t.me/+PcPU9gD4mwg0MmJi) | [GitHub](https://github.com/bcheban/rn-habit-tracker) |
-| 5 | **2048 JS Game** — classic 2048 with smooth tile animations and touch controls | JS, HTML, SCSS | [Demo](https://bcheban.github.io/2048_js-game/) | [GitHub](https://github.com/bcheban/2048_js-game) |
-| 6 | **MyBike Landing Page** — landing for an electric-bike brand with product compare | HTML, SCSS | [Demo](https://bcheban.github.io/mybike_landing-page/) | [GitHub](https://github.com/bcheban/mybike_landing-page) |
-| 7 | **Weather Dashboard** — city search, current conditions, and interactive charts | React, Tailwind, Chart.js, React-toastify | [Demo](https://react-weather-dashboard.vercel.app/) | [GitHub](https://github.com/bcheban/react-weather-app) |
-| 8 | **Phone Catalog (Nice Gadgets)** — multilingual, theme-switchable e-commerce SPA | React, Redux Toolkit, React Router, Bulma, i18next, Swiper | [Demo](https://bcheban.github.io/phone-catalog_react/) | [GitHub](https://github.com/bcheban/phone-catalog_react) |
+<table>
+  <tr>
+    <td width="50%" valign="top">
+      <h3>🌐 <a href="https://bohdancheban-portfolio.vercel.app">Portfolio</a></h3>
+      <p>This very site — animated, theme-aware, with a live Lighthouse-score API I built myself.</p>
+      <p><sub><b>Tech:</b> React 19, Vite, Tailwind v4, EmailJS</sub></p>
+      <p><img src="https://bohdancheban-portfolio.vercel.app/api/lighthouse?url=https%3A%2F%2Fbohdancheban-portfolio.vercel.app&strategy=mobile" alt="Lighthouse" width="380" /></p>
+    </td>
+    <td width="50%" valign="top">
+      <h3>📝 <a href="https://next-noteforge.vercel.app">NoteForge</a></h3>
+      <p>Full-stack note-taking app with auth, search, and Postgres on the edge.</p>
+      <p><sub><b>Tech:</b> Next.js, TypeScript, Drizzle, NeonDB, ShadCN</sub></p>
+      <p><img src="https://bohdancheban-portfolio.vercel.app/api/lighthouse?url=https%3A%2F%2Fnext-noteforge.vercel.app&strategy=mobile" alt="Lighthouse" width="380" /></p>
+    </td>
+  </tr>
+  <tr>
+    <td width="50%" valign="top">
+      <h3>🌤 <a href="https://react-weather-dashboard.vercel.app">Weather Dashboard</a></h3>
+      <p>City search, current conditions, and interactive forecast charts with toast feedback.</p>
+      <p><sub><b>Tech:</b> React, Tailwind, Chart.js, React-toastify</sub></p>
+      <p><img src="https://bohdancheban-portfolio.vercel.app/api/lighthouse?url=https%3A%2F%2Freact-weather-dashboard.vercel.app&strategy=mobile" alt="Lighthouse" width="380" /></p>
+    </td>
+    <td width="50%" valign="top">
+      <h3>📱 <a href="https://t.me/+PcPU9gD4mwg0MmJi">HabitTracker</a></h3>
+      <p>React Native habit tracker for Android — streaks, reminders, offline-first.</p>
+      <p><sub><b>Tech:</b> React Native, Expo, TypeScript, Appwrite</sub></p>
+      <p><sub>📥 APK via Telegram · mobile-only (no Lighthouse)</sub></p>
+    </td>
+  </tr>
+  <tr>
+    <td width="50%" valign="top">
+      <h3>🍳 <a href="https://nuxt-recipe-app-zeta.vercel.app">Nuxt Recipe App</a></h3>
+      <p>Elegant SSR recipe browser with detailed instructions and per-recipe pages.</p>
+      <p><sub><b>Tech:</b> Nuxt 4, Vue 3, TypeScript, Tailwind</sub></p>
+      <p><img src="https://bohdancheban-portfolio.vercel.app/api/lighthouse?url=https%3A%2F%2Fnuxt-recipe-app-zeta.vercel.app&strategy=mobile" alt="Lighthouse" width="380" /></p>
+    </td>
+    <td width="50%" valign="top">
+      <h3>🚀 <a href="https://react-landing-page-ivory-one.vercel.app">SaaS Landing</a></h3>
+      <p>Animated dark-first SaaS landing template with smooth scroll and theme toggle.</p>
+      <p><sub><b>Tech:</b> React, TypeScript, Tailwind, Zustand</sub></p>
+      <p><img src="https://bohdancheban-portfolio.vercel.app/api/lighthouse?url=https%3A%2F%2Freact-landing-page-ivory-one.vercel.app&strategy=mobile" alt="Lighthouse" width="380" /></p>
+    </td>
+  </tr>
+</table>
+
+➡️ **[See all 8 projects on my portfolio →](https://bohdancheban-portfolio.vercel.app/#projects)**
 
 ---
 
-## ⚙️ Getting Started
+## 📊 GitHub Stats
 
-### 📋 Prerequisites
+<p align="center">
+  <img height="180em" src="https://github-readme-stats.vercel.app/api?username=bcheban&show_icons=true&theme=radical&include_all_commits=true&count_private=true&hide_border=true" alt="GitHub stats" />
+  <img height="180em" src="https://github-readme-stats.vercel.app/api/top-langs/?username=bcheban&layout=compact&theme=radical&hide_border=true&langs_count=8" alt="Top languages" />
+</p>
 
-- **Node.js** `v20.x` or higher
-- **npm** `v10.x` or higher
-- **Git**
+<p align="center">
+  <img src="https://streak-stats.demolab.com/?user=bcheban&theme=radical&hide_border=true" alt="GitHub streak" />
+</p>
 
-### 📦 Installation
-
-1. **Clone the repository:**
-   ```bash
-   git clone https://github.com/bcheban/portfolio.git
-   cd portfolio
-   ```
-
-2. **Install dependencies:**
-   ```bash
-   npm install
-   ```
-
-3. **Start the dev server:**
-   ```bash
-   npm run dev
-   ```
-   The app will open at [http://localhost:5173](http://localhost:5173).
-
-### 🧰 Available Scripts
-
-| Script             | Description                                        |
-| ------------------ | -------------------------------------------------- |
-| `npm run dev`      | Start the local Vite dev server                    |
-| `npm run build`    | Create a production build in `/dist`               |
-| `npm run preview`  | Preview the production build locally               |
-| `npm run lint`     | Run ESLint across the project                      |
-
-### 🔦 Lighthouse Screenshots
-
-The `scripts/` folder includes a helper to capture Lighthouse score-card PNGs for each project's live URL and write them straight into each project repo:
-
-```bash
-npm install --save-dev puppeteer lighthouse chrome-launcher
-node scripts/lighthouse-screenshots.mjs              # all targets
-node scripts/lighthouse-screenshots.mjs --only next-noteforge
-```
-
-Edit `scripts/lighthouse-targets.json` so `outPath` for each entry points at the local clone of the matching project repo (default assumes sibling folders).
+<p align="center">
+  <img src="https://github-profile-trophy.vercel.app/?username=bcheban&theme=radical&no-frame=true&row=1&column=7&margin-w=10" alt="Trophies" />
+</p>
 
 ---
 
-## 🚀 Features
+## 🐍 Contribution Snake
 
-- **🎨 Hero Section** – Animated intro with parallax star background and call-to-action.
-- **👤 About Section** – Bio, role highlights, and key strengths.
-- **🧠 Skills + Familiar Technologies** – Two filterable grids (frontend / backend / tools) showing comfort-level vs familiarity.
-- **📁 Projects Grid** – Responsive card grid with tag chips, hover zoom, and live + source links.
-- **🎓 Certificates Gallery** – Showcase of completed courses and credentials.
-- **✉️ Contact Form** – EmailJS-powered form with Radix toast feedback.
-- **🌗 Light / Dark Theme** – Persistent theme toggle with smooth transitions.
-- **📱 Fully Responsive** – Mobile-first design, optimized from 320px up.
-- **🚫 Custom 404** – Dedicated NotFound page.
+<p align="center">
+  <picture>
+    <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/bcheban/bcheban/output/github-contribution-grid-snake-dark.svg" />
+    <img alt="Snake animation" src="https://raw.githubusercontent.com/bcheban/bcheban/output/github-contribution-grid-snake.svg" />
+  </picture>
+</p>
 
 ---
 
-## ✅ README Checklist
+## 📫 Connect With Me
 
-- [x] **Project Name** with a clear, descriptive title
-- [x] **Project Overview** with a short description of what the app does
-- [x] **Live Preview** link to the deployed version
-- [x] **Technologies Used** with all major tools and libraries listed
-- [x] **Getting Started** with prerequisites, installation, and run instructions
-- [x] **Available Scripts** documented for local development
-- [x] **Features** described in a readable, scannable list
-- [x] **Responsive design** verified on mobile, tablet, and desktop
-- [x] **Deployed** to Vercel and link verified to work
-
----
-
-## 📊 Lighthouse
-
-<p>
-  <img src="https://bohdancheban-portfolio.vercel.app/api/lighthouse?url=https%3A%2F%2Fbohdancheban-portfolio.vercel.app&strategy=mobile" alt="Mobile" />
-  <img src="https://bohdancheban-portfolio.vercel.app/api/lighthouse?url=https%3A%2F%2Fbohdancheban-portfolio.vercel.app&strategy=desktop" alt="Desktop" />
+<p align="center">
+  <a href="https://www.linkedin.com/in/bohdan-cheban-152393286"><img src="https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn" /></a>
+  <a href="https://t.me/bohdaan2025"><img src="https://img.shields.io/badge/Telegram-2CA5E0?style=for-the-badge&logo=telegram&logoColor=white" alt="Telegram" /></a>
+  <a href="https://www.instagram.com/bohdan_cheban"><img src="https://img.shields.io/badge/Instagram-E4405F?style=for-the-badge&logo=instagram&logoColor=white" alt="Instagram" /></a>
+  <a href="https://discord.com/users/729713105847713842"><img src="https://img.shields.io/badge/Discord-5865F2?style=for-the-badge&logo=discord&logoColor=white" alt="Discord" /></a>
+  <a href="mailto:ivancheban@gmail.com"><img src="https://img.shields.io/badge/Email-D14836?style=for-the-badge&logo=gmail&logoColor=white" alt="Email" /></a>
 </p>
 
 ---
 
 <p align="center">
-  Made with ❤️ by <a href="https://github.com/bcheban">@bcheban</a>
+  <img src="https://quotes-github-readme.vercel.app/api?type=horizontal&theme=radical" alt="Dev quote" />
 </p>
 
+<p align="center">
+  <sub>🛰️ Always exploring new technologies and building creative projects.</sub>
+</p>
