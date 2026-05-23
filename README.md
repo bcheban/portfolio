@@ -165,6 +165,15 @@ Edit `scripts/lighthouse-targets.json` so `outPath` for each entry points at the
 
 ---
 
+## 📊 Lighthouse
+
+<p>
+  <img src="https://bohdancheban-portfolio.vercel.app/api/lighthouse?url=https%3A%2F%2Fbohdancheban-portfolio.vercel.app&strategy=mobile" alt="Mobile" />
+  <img src="https://bohdancheban-portfolio.vercel.app/api/lighthouse?url=https%3A%2F%2Fbohdancheban-portfolio.vercel.app&strategy=desktop" alt="Desktop" />
+</p>
+
+---
+
 <p align="center">
   Made with ❤️ by <a href="https://github.com/bcheban">@bcheban</a>
 </p>
