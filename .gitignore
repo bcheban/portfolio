@@ -12,6 +12,12 @@ dist
 dist-ssr
 *.local
 
+# Original certificate PDFs at repo root (too large; only the rendered PNGs in public/certificates/ are pushed)
+/certificates/
+
+# Windows reserved-name artifact from accidental `> nul` redirections
+nul
+
 # Editor directories and files
 .vscode/*
 !.vscode/extensions.json

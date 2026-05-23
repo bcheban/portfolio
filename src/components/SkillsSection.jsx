@@ -8,27 +8,20 @@ const skills = [
   { name: "React", icon: "react.svg", category: "frontend" },
   { name: "TypeScript", icon: "typescript.svg", category: "frontend" },
   { name: "TailwindCSS", icon: "tailwind.svg", category: "frontend" },
-  { name: "Next.js", icon: "nextjs.svg", category: "frontend" },
-  { name: "Vue", icon: "vue.svg", category: "frontend" },
-  { name: "Nuxt", icon: "nuxt.svg", category: "frontend" },
-  { name: "Zustand", icon: "zustand.svg", category: "frontend" },
-  { name: "React Native", icon: "react-native.svg", category: "frontend" },
+  { name: "Redux", icon: "redux.svg", category: "frontend" },
+  { name: "RTK", icon: "redux.svg", category: "frontend" },
   { name: "Bootstrap", icon: "bootstrap.svg", category: "frontend" },
   { name: "SASS/SCSS", icon: "scss.svg", category: "frontend" },
-  { name: "ShadCN", icon: "shadcn.png", category: "frontend" },
 
   // Backend
-  { name: "Appwrite", icon: "appwrite.svg", category: "backend" },
-  { name: "Drizzle", icon: "drizzle.svg", category: "backend" },
-  { name: "NeonDB", icon: "neondb.svg", category: "backend" },
-  { name: "Postman", icon: "postman.svg", category: "backend" },
   { name: "Node.js", icon: "nodejs.svg", category: "backend" },
+  { name: "PostgreSQL", icon: "postgresql.png", category: "backend" },
+  { name: "Postman", icon: "postman.svg", category: "backend" },
 
   // Tools
   { name: "Git/GitHub", icon: "github.svg", category: "tools" },
   { name: "VSCode", icon: "vscode.svg", category: "tools" },
   { name: "Figma", icon: "figma.svg", category: "tools" },
-  { name: "Expo", icon: "expo.svg", category: "tools" },
   { name: "Vite", icon: "vite.svg", category: "tools" },
   { name: "Vercel", icon: "vercel.svg", category: "tools" },
 ];

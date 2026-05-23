@@ -49,8 +49,8 @@ export const Navbar = () => {
         <a
           className={cn(
             "text-xl font-bold text-primary flex items-center transition-opacity duration-300",
-            "md:opacity-100",
-            currentSection === "hero" ? "opacity-100" : "opacity-0 max-md:pointer-events-none"
+            "lg:opacity-100",
+            currentSection === "hero" ? "opacity-100" : "opacity-0 max-lg:pointer-events-none"
           )}
           href="#hero"
         >
@@ -120,4 +120,4 @@ export const Navbar = () => {
       </div>
     </nav>
   );
-}; 
+};

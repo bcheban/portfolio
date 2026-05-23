@@ -41,6 +41,46 @@ const projects = [
     demoUrl: "https://t.me/+PcPU9gD4mwg0MmJi",
     githubUrl: "https://github.com/bcheban/rn-habit-tracker",
   },
+  {
+    id: 5,
+    title: "2048 JS Game",
+    description:
+      "A polished browser version of the classic 2048 game with smooth tile animations, keyboard and touch controls, and responsive layout. Built with JavaScript, semantic HTML, and SCSS for a clean and modern experience.",
+    image: "/projects/project5.png",
+    tags: ["JS", "HTML", "SCSS"],
+    demoUrl: "https://bcheban.github.io/2048_js-game/",
+    githubUrl: "https://github.com/bcheban/2048_js-game",
+  },
+  {
+    id: 6,
+    title: "MyBike Landing Page",
+    description:
+      "A stylish landing page for an electric bike brand, with an immersive hero section, product comparison layout, and responsive details. Built with HTML and SCSS, it highlights features, pricing, and the bike experience in a clean, modern design.",
+    image: "/projects/project6.png",
+    tags: ["HTML", "SCSS"],
+    demoUrl: "https://bcheban.github.io/mybike_landing-page/",
+    githubUrl: "https://github.com/bcheban/mybike_landing-page",
+  },
+  {
+    id: 7,
+    title: "Weather Dashboard",
+    description:
+      "A weather dashboard with city search, current conditions, interactive charts, and notification feedback. Built with React, Tailwind, Chart.js, React Toastify, and react-icons for a dynamic user experience.",
+    image: "/projects/project7.png",
+    tags: ["React", "Tailwind", "Chart.js", "React-toastify", "react-icons"],
+    demoUrl: "https://react-weather-dashboard.vercel.app/",
+    githubUrl: "https://github.com/bcheban/react-weather-app",
+  },
+  {
+    id: 8,
+    title: "React Phone Catalog",
+    description:
+      "A responsive phone catalog built with React, using Redux Toolkit, React Router DOM, Bulma, and i18next. The app includes searchable product cards, filters, animations, and polished UI interactions.",
+    image: "/projects/project8.png",
+    tags: ["React", "Redux Toolkit", "React Router", "Bulma", "i18next", "react-select", "Swiper"],
+    demoUrl: "https://bcheban.github.io/phone-catalog_react/",
+    githubUrl: "https://github.com/bcheban/phone-catalog_react",
+  },
 ];
 
 export const ProjectsSection = () => {
@@ -60,9 +100,10 @@ export const ProjectsSection = () => {
           {projects.map((project) => (
             <div
               key={project.id}
-              className="group bg-card rounded-lg overflow-hidden shadow-xs card-hover"
+              className="group bg-card rounded-lg overflow-hidden shadow-xs card-hover flex flex-col h-full border border-border/50"
             >
-              <div className="h-48 overflow-hidden">
+              {/* Image section */}
+              <div className="h-56 overflow-hidden">
                 <img
                   src={project.image}
                   alt={project.title}
@@ -70,7 +111,8 @@ export const ProjectsSection = () => {
                 />
               </div>
 
-              <div className="p-6">
+              {/* Content section */}
+              <div className="p-6 flex flex-col flex-grow">
                 <div className="flex flex-wrap gap-2 mb-4">
                   {project.tags.map((tag, index) => (
                     <span
@@ -85,24 +127,30 @@ export const ProjectsSection = () => {
                 <h3 className="text-xl font-semibold mb-1">
                   {project.title}
                 </h3>
-                <p className="text-muted-foreground text-sm mb-4">
+                <p className="text-muted-foreground text-sm mb-6">
                   {project.description}
                 </p>
-                <div className="flex justify-between items-center">
-                  <div className="flex space-x-3">
-                    <a
-                      href={project.demoUrl}
-                      target="_blank"
-                      className="text-foreground/80 hover:text-primary transition-colors duration-300"
-                    >
-                      <ExternalLink size={20} />
-                    </a>
+
+                {/* Icons row - will always stay at the bottom */}
+                <div className="mt-auto flex items-center justify-between pt-4 border-t border-border/40">
+                  <div className="flex space-x-4">
                     <a
                       href={project.githubUrl}
                       target="_blank"
-                      className="text-foreground/80 hover:text-primary transition-colors duration-300"
+                      rel="noopener noreferrer"
+                      className="flex items-center gap-1.5 text-sm font-medium text-foreground/70 hover:text-primary transition-colors duration-300"
                     >
-                      <Github size={20} />
+                      <Github size={18} />
+                      <span>Code</span>
+                    </a>
+                    <a
+                      href={project.demoUrl}
+                      target="_blank"
+                      rel="noopener noreferrer"
+                      className="flex items-center gap-1.5 text-sm font-medium text-foreground/70 hover:text-primary transition-colors duration-300"
+                    >
+                      <ExternalLink size={18} />
+                      <span>Demo</span>
                     </a>
                   </div>
                 </div>
@@ -115,6 +163,7 @@ export const ProjectsSection = () => {
           <a
             className="cosmic-button w-fit flex items-center mx-auto gap-2"
             target="_blank"
+            rel="noopener noreferrer"
             href="https://github.com/bcheban"
           >
             Check My Github <ArrowRight size={16} />

@@ -1,0 +1,37 @@
+[
+  {
+    "slug": "react-landing-page",
+    "url": "https://react-landing-page-ivory-one.vercel.app",
+    "outPath": "../../react-landing-page/docs/lighthouse.png"
+  },
+  {
+    "slug": "next-noteforge",
+    "url": "https://next-noteforge.vercel.app",
+    "outPath": "../../next-noteforge/docs/lighthouse.png"
+  },
+  {
+    "slug": "nuxt-recipe-app",
+    "url": "https://nuxt-recipe-app-zeta.vercel.app",
+    "outPath": "../../nuxt-recipe-app/docs/lighthouse.png"
+  },
+  {
+    "slug": "2048_js-game",
+    "url": "https://bcheban.github.io/2048_js-game/",
+    "outPath": "../../2048_js-game/docs/lighthouse.png"
+  },
+  {
+    "slug": "mybike_landing-page",
+    "url": "https://bcheban.github.io/mybike_landing-page/",
+    "outPath": "../../mybike_landing-page/docs/lighthouse.png"
+  },
+  {
+    "slug": "react-weather-app",
+    "url": "https://react-weather-dashboard.vercel.app",
+    "outPath": "../../react-weather-app/docs/lighthouse.png"
+  },
+  {
+    "slug": "phone-catalog_react",
+    "url": "https://bcheban.github.io/phone-catalog_react/",
+    "outPath": "../../phone-catalog_react/docs/lighthouse.png"
+  }
+]
