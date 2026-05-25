@@ -160,6 +160,26 @@ const certificates = [
     module: "Module 13",
     category: "Mate Academy",
   },
+  {
+    image: "cheban-certificate_(13)_page1.png",
+    title: "Mate Academy Certificate 14",
+    issuer: "Mate Academy",
+    description:
+      "Certificate from Mate Academy awarded for completion of a full stack course module.",
+    year: "2026",
+    module: "Module 14",
+    category: "Mate Academy",
+  },
+  {
+    image: "cheban-certificate_(14)_page1.png",
+    title: "Mate Academy Certificate 15",
+    issuer: "Mate Academy",
+    description:
+      "Certificate from Mate Academy awarded for completion of a full stack course module.",
+    year: "2026",
+    module: "Module 15",
+    category: "Mate Academy",
+  },
 ];
 
 const categories = ["GoITeens", "Mate Academy"];
